@@ -9,11 +9,13 @@ class ServiceProvidersPage extends Component {
   render() {
     return (
       <div>
-        <MainNavbar/>
+        <header>
+          <MainNavbar/>
+        </header>
         <main>
           <Sidebar/>
           <ServiceProviders/>
-        </main>  
+        </main>
       </div>
     )
   }

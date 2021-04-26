@@ -40,7 +40,7 @@ class ServiceProvidersGrid extends Component {
               </div>
               <div>
                 <img src={ item.logo }></img>
-                {item.isInstalled && <span> <FontAwesomeIcon icon={ faCheckCircle }/>Installed</span>}
+                {item.isInstalled && <span> <FontAwesomeIcon icon={ faCheckCircle } />Installed</span>}
                 {item.isInstalled === false && <button onClick={ this._changeInstallationState } id={ index }> <FontAwesomeIcon icon={ faPlus }/> Install</button>}
               </div>
               <div>

@@ -8,18 +8,18 @@ class MainNavbar extends Component {
 
   render() {
     return (
-      <nav class="main-navber">
+      <nav class="main-navbar">
         <button> Logo </button>
-        <ul>
+        <ul class="main-links">
           {mainNavbarLinks.map(function(item){
             return <a href="#">{ item }</a>;
           })}
         </ul>
-        <ul>
-        <FontAwesomeIcon icon={faSearch} />
-        <FontAwesomeIcon icon={faCog} />
-        <FontAwesomeIcon icon={faBell} />
-        <img src="headshot.jpeg"></img>
+        <ul class="main-icons">
+          <FontAwesomeIcon icon={faSearch} />
+          <FontAwesomeIcon icon={faCog} />
+          <FontAwesomeIcon icon={faBell} />
+          <img src="headshot.jpeg"></img>
         </ul>
       </nav>
     )

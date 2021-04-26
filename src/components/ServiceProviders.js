@@ -6,7 +6,7 @@ class ServiceProviders extends Component {
 
   render() {
     return (
-      <div>
+      <div class="service-providers-container">
         <ServiceProvidersHeader/>
         <ServiceProvidersGrid/>
       </div>
